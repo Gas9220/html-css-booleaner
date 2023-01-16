@@ -10,6 +10,11 @@ section {
     margin: 10px 0;
 }
 
+footer {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
 ul {
     margin-left: 20px;
     padding-left: 0px;
@@ -74,4 +79,31 @@ thead {
 
 .blue-row {
     background-color: lightblue;
+}
+
+/* Footer  */
+
+#article1 {
+    background-image: url('../img/monitor.jpg');
+}
+
+#article2 {
+    background-image: url('../img/graph.jpg');
+}
+
+.footer-title {
+    color: gray;
+    font-weight: 600;
+}
+
+.suggested-article {
+    width: 312px;
+    height: 208px;
+}
+
+.suggested-article-text {
+    font-size: 22px;
+    color: white;
+    padding: 20px 15px;
+    margin: 10px;
 }
