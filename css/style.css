@@ -58,6 +58,10 @@ ul {
 }
 
 /* Sezione Contenuto articolo */
+.highlighted-text {
+    background-color: yellow;
+}
+
 table {
     border-spacing: 0px; /* rimuove i pixel bianchi tra le colonne */
 }
