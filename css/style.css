@@ -3,18 +3,23 @@ body {
 }
 
 main {
-    margin: 5px;
+    margin: 10px;
 }
 
 section {
-    margin: 10px;
+    margin: 10px 0;
+}
+
+ul {
+    margin-left: 20px;
+    padding-left: 0px;
 }
 
 /* Header */
 
 #logo {
     width: 200px;
-    padding-top: 100px;
+    padding-top: 110px;
     padding-left: 10px;
 }
 
@@ -45,4 +50,28 @@ section {
 
 #photo-description {
     font-size: 12px
+}
+
+/* Sezione Contenuto articolo */
+table {
+    border-spacing: 0px; /* rimuove i pixel bianchi tra le colonne */
+}
+
+thead {
+    text-align: left;
+    color: white;
+    background-color: rgb(82, 162, 252);
+}
+
+/* Applicato alle prime due colonne che sono più corte */
+.short-row {
+    width: 20%;
+}
+
+.long-row {
+    width: 60%;
+}
+
+.blue-row {
+    background-color: lightblue;
 }
